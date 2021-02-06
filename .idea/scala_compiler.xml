@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="SparkTest_Practice">
+      <plugins>
+        <plugin path="C:\Users\gowth\.m2\repository\com\artima\supersafe\supersafe_2.12.3\1.1.10\supersafe_2.12.3-1.1.10.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
