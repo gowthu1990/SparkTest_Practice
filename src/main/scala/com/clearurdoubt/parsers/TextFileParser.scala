@@ -1,7 +1,7 @@
 package com.clearurdoubt.parsers
 
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
-import org.apache.spark.sql.{DataFrame, Row, SparkSession}
+import org.apache.spark.sql.{DataFrame, Row, SaveMode, SparkSession}
 
 class TextFileParser {
   def readData(path: String)
@@ -39,7 +39,8 @@ class TextFileParser {
     df
       .coalesce(1)
       .write
-      .format("text")
+      .mode(SaveMode.Overwrite)
+      .format("csv")
       .save(outputPath)
 }
 
