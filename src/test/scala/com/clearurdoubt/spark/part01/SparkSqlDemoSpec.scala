@@ -6,7 +6,7 @@ import org.scalatest.matchers.should.Matchers
 
 class SparkSqlDemoSpec extends AnyFlatSpec with Matchers {
   val list = List(1, 2, 3)
-  val df: DataFrame = SparkSqlDemo.createDF(list)
+  val df: DataFrame = SparkSqlDemo.createSimpleDF(list)
 
   "createDF()" should "create a DataFrame with one column \"id\"" in {
     val columns = df.columns.toList
