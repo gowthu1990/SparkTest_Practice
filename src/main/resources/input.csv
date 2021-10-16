@@ -1,0 +1,14 @@
+ID,Name,AnnualSalary,ManagerId
+1,LisaSmith,150000,NULL
+2,DanBradley,110000,1
+3,OliverQueen,180000,1
+4,DaveDakota,100000,1
+5,SteveCarr,200000,NULL
+6,AliceJohnson,205000,5
+7,DamianLuther,100000,5
+8,AveryMontgomery,210000,5
+9,MarkSpencer,140000,5
+10,MelanieThorthon,200000,NULL
+11,DanaParker,100000,10
+12,AntonioMaker,120000,10
+13,LucilleAlvarez,140000,10
