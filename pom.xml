@@ -8,14 +8,22 @@
     <artifactId>SparkTest_Practice</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <developers>
+        <developer>
+            <name>Sai Gowtham Badvity</name>
+            <roles>
+                <role>Apache Spark Developer</role>
+                <role>Scala Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
-
     <dependencies>
-
         <!-- Spark Framework-->
         <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
         <dependency>
