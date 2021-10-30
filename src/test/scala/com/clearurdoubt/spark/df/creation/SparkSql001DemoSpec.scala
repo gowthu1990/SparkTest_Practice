@@ -4,12 +4,12 @@ import org.apache.spark.sql.{DataFrame, Row}
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class SparkSqlDemoSpec extends AnyFlatSpec with Matchers {
+class SparkSql001DemoSpec extends AnyFlatSpec with Matchers {
   val numbers = List(1, 2, 3)
-  val simpleDF: DataFrame = SparkSqlDemo.createSimpleDF(numbers)
+  val simpleDF: DataFrame = SparkSql001Demo.createSimpleDF(numbers)
 
   val tuples = List((101, "John", "Doe"), (102, "Andy", "Flower"), (103, "Grant", "Flower"))
-  val tuple3DF: DataFrame = SparkSqlDemo.createTuple3DF(tuples)
+  val tuple3DF: DataFrame = SparkSql001Demo.createTuple3DF(tuples)
 
   "createDF()" should "create a DataFrame with one column \"id\"" in {
     val columns = simpleDF.columns.toList

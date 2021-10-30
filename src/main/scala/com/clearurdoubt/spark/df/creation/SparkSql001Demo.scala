@@ -3,7 +3,7 @@ package com.clearurdoubt.spark.df.creation
 import com.clearurdoubt.spark.SparkInitializer
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
-object SparkSqlDemo extends SparkInitializer {
+object SparkSql001Demo extends SparkInitializer {
   implicit val spark: SparkSession = getSparkSession(master = "local[*]", appName = "SparkSqlDemo")
   import spark.implicits._
 
